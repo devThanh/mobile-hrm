@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DoAnMobile</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="taikhoan">Username</string>
+    <string name="matkhau">Password</string>
+    <string name="dangnhap">Login</string>
+    <string name="btnthemnv">ADD EMPLOYEE</string>
+    <string name="mssv">STUDENT CODE:</string>
+    <string name="hoten">FULLNAME:</string>
+    <string name="lop">CLASS:</string>
+    <string name="email">EMAIL:</string>
+    <string name="khoa">DEPARTMENT:</string>
+    <string name="sdt">PHONE:</string>
+    <string name="btnaddrooom">ADD DEPARTMENT</string>
+    <string name="btneditroom">EDIT DEPARTMENT</string>
+    <string name="btndeleteroom">DELETE DEPARTMENT</string>
+    <string name="chuphinh">TAKE A PHOTO</string>
+    <string name="chonhinh">CHOOSE A PHOTO</string>
+    <string name="phongban">DEPARTMENT</string>
+    <string name="btnluu">SAVE</string>
+    <string name="btnhuy">BACK</string>
+    <string name="maphongban">DEPARTMENT CODE</string>
+    <string name="tenphongban">DEPARTMENT NAME</string>
+    <string name="btnthem">ADD</string>
+    <string name="btnquaylai">BACK</string>
+    <string name="manv">EMPLOYEE CODE:</string>
+    <string name="btncapnhat">SAVE</string>
+    <string name="btnsua">EDIT</string>
+    <string name="btnxoa">DELETE</string>
+    <string name="btnxem">DETAIL</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="thoat">LOGOUT</string>
+    <string name="nhanvien">EMPLOYEE</string>
+</resources>

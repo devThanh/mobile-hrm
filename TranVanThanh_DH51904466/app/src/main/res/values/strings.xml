@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DoAnMobile</string>
+<!--    <string name="title_activity_login">LoginActivity</string>-->
+<!--    <string name="prompt_email">Email</string>-->
+<!--    <string name="prompt_password">Password</string>-->
+<!--    <string name="action_sign_in">Sign in or register</string>-->
+<!--    <string name="action_sign_in_short">Sign in</string>-->
+<!--    <string name="welcome">"Welcome !"</string>-->
+<!--    <string name="invalid_username">Not a valid username</string>-->
+<!--    <string name="invalid_password">Password must be >5 characters</string>-->
+<!--    <string name="login_failed">"Login failed"</string>-->
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="taikhoan">Tài khoản</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="btnthemnv">THÊM NHÂN VIÊN</string>
+    <string name="mssv">MSSV:</string>
+    <string name="hoten">HỌ TÊN:</string>
+    <string name="lop">LỚP:</string>
+    <string name="email">EMAIL:</string>
+    <string name="khoa">KHOA:</string>
+    <string name="sdt">SĐT:</string>
+    <string name="btnaddrooom">Thêm Phòng ban</string>
+    <string name="btneditroom">Sửa Phòng ban</string>
+    <string name="btndeleteroom">Xóa Phòng ban</string>
+    <string name="chuphinh">Chụp hình</string>
+    <string name="chonhinh">Chọn hình</string>
+    <string name="phongban">PHÒNG BAN</string>
+    <string name="btnluu">LƯU</string>
+    <string name="btnhuy">HỦY</string>
+    <string name="maphongban">MÃ PHÒNG BAN</string>
+    <string name="tenphongban">TÊN PHÒNG BAN</string>
+    <string name="btnthem">THÊM</string>
+    <string name="btnquaylai">QUAY LẠI</string>
+    <string name="manv">MÃ NHÂN VIÊN:</string>
+    <string name="btncapnhat">CẬP NHẬT</string>
+    <string name="btnsua">SỬA</string>
+    <string name="btnxoa">XÓA</string>
+    <string name="btnxem">XEM</string>
+    <string name="about_me">Thông tin cá nhân</string>
+    <string name="thoat">Thoát</string>
+    <string name="nhanvien">NHÂN VIÊN</string>
+    <!--    <string name="MAPS_API_KEY">AIzaSyBNkBjTFk1EmOuK1jngBgQwi_xvQ1TMm5c</string>-->
+
+</resources>

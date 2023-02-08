@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Update_PhongBan_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/maphongban"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMaPB1"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tenphongban"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTenPB1"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btncapnhat"
+        android:id="@+id/btnThemPBU"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnquaylai"
+        android:id="@+id/btnQuayLaiPBU"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+
+</LinearLayout>

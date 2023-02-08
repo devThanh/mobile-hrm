@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About_Activity">
+
+    <ImageView
+        android:id="@+id/imgHinhDaiDien"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/jack"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/mssv"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DH51904466 "
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hoten"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TRẦN VĂN THANH"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lop"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvLop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D19_TH09"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="vantranthanhh@gmail.com"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/khoa"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvPhongBan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CNTT"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sdt"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvSDT_About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0354034706"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/btnCall"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/telephone_call"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_weight="0.5"/>
+
+            <ImageView
+                android:id="@+id/btnMap"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/google_maps"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

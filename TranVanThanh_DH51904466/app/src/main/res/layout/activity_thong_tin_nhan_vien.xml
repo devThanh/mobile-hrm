@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThongTin_NhanVien_activity">
+
+    <ImageView
+        android:id="@+id/imgHinhDaiDien"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/jack"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manv"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hoten"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvSDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sdt"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvPhongBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maphongban"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

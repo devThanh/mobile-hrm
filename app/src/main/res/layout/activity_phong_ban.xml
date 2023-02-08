@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhongBan_activity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnaddrooom"
+        android:id="@+id/btnThemPhongBan1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btneditroom"
+        android:id="@+id/btnSuaPhongBan1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btndeleteroom"
+        android:id="@+id/btnXoaPhongBan1"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvNVPB"
+        android:drawSelectorOnTop="false"/>
+
+</LinearLayout>
